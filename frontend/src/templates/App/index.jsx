@@ -1,7 +1,12 @@
+import { Heading } from '../../componets/Heading';
+import * as Styled from './styles';
+
 const Home = () => {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <Styled.Wrapper>
+        <Heading>OI</Heading>
+      </Styled.Wrapper>
     </div>
   );
 }
